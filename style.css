@@ -1,0 +1,41 @@
+
+body {
+	margin: 0;
+	height: 100vh;
+	background: #191919;
+	font-family: 'Nobile'
+}
+
+*, *:before, *:before {
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 2em;
+    height: 100vh;
+    
+    &:first-child {
+        display: grid;
+        grid-template-rows: 10% 30% auto;
+    }
+
+    h1 {
+        text-align: center;
+        margin-top: 2em;
+        font-weight: normal;
+        font-size: 3em;
+        line-height: .9em;
+    }
+
+    p {
+        line-height: 1.5em;
+        color: rgb(194,194,194);
+    }
+
+    .line {
+        align-self: end;
+        width: 50%;
+        border-right: 1px solid white;
+        height: 50%;
+        margin-bottom: 4em;
+        position: relative;
